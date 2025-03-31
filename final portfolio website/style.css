@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #0a15df;
+    --header-font:'LEMON MILK', sans-serif;
+    --font-hello: "Overpass", sans-serif;
+}
+
+.container {}
+
+.intro {
+    width: 100vw;
+    width: 100%;
+    height: 80vh;
+    background-color: #0a15df;
+}
+.header ul .nav:hover{
+    background-color: rgb(29, 11, 146);
+    color: white;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+}
+
+.header ul .nav {
+    font-family: var(--header-font);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.header ul li:hover {
+    font-family: var(--header-font);
+    color: var(--background);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.active{
+    background-color: white;
+    color: var(--background);
+    border-radius: 10px;
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+
+}
+
+.header h1 {
+    font-family: var(--header-font);
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    padding: 0.2vh 2vw;
+    margin: 0px 3vw;
+}
+
+.hello span {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16rem;
+
+}
+
+.hello {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    font-weight: 550;
+}
+
+.welcome h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.welcome {
+    display: flex;
+    margin-top: 60px;
+    font-family: var(--font-hello);
+    color: #ff8000;
+    flex-direction: column;
+    justify-content: center;
+
+    .text {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+.seperation {
+    width: 100vw;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(22, 44, 55, 0.6)
+}
+
+.about_section {
+    width: 100vw;
+    width: 100%;
+    height: 100vh;
+    background-color: #898787;
+}
+
+.about_head {
+    display: flex;
+    justify-content: center;
+    font-family: var(--header-font);
+    padding-top: 8px;
+    color: white;
+    font-size: 3rem;
+}
+
+.about_body {
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.works_section {
+    width: 100vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.works_head {
+    display: flex;
+    justify-content: center;
+}
+
+.works_head h1 {
+    font-size: 4rem;
+    padding-top: 4vh;
+    font-family: var(--header-font);
+    padding-bottom: 5vh;
+}
+
+.works_body {
+    background-color: white;
+    display: flex;
+    gap: 3vw;
+    /* grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 40vh 40vh 40vh;
+    gap: 30px; */
+    justify-content: center;
+    /* padding-top: 40px; */
+}
+
+.works_box {
+    background-color: rgb(62, 49, 33);
+}
+
+.contact_section {
+    padding-top: 60px;
+    background-color: rgb(255, 255, 255);
+    height: 110vh;
+    width: 100vw;
+    width: 100%;
+    margin-bottom: 30px;
+
+    h1 {
+        justify-content: center;
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    p {
+        justify-content: center;
+        display: flex;
+    }
+}
+.contact_body{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 35vh 35vh ;
+    background-color: #ffffff;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.contact_box{
+    background-color: yellow;
+}
+.footer_bar{
+    width: 100%;
+    height: 15vh;
+    background-color: bisque;
+}
+.works_box{
+    background-color: #0a15df;
+    width: 25vw;
+    height: 75vh;
+    border-radius: 2rem;
+}
+.works_container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .works_body {
+    display: flex;
+    transition: transform 0.1s ease-in-out;
+    will-change: transform;
+  }
+  
+  .works_box {
+    flex: 0 0 auto;
+  }
+  .works_box:hover{
+    flex: 0 0 auto;
+    background-color: blue;
+  }
+.contact_head h1{
+    font-family: var(--header-font);
+    font-size: 4rem;
+}
+  

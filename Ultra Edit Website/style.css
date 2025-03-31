@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+:root{
+    --body: #f9f9f9;
+    --btn: #5cb85c;
+}
+svg{
+    object-fit: contain;
+}
+.head{
+    width: 100vw;
+    height: 12vh;
+    background-color: var(--bodyjjjjjj);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.nav ul li span:hover{
+    padding: 4px;
+}
+.base{
+    width: 70vw;
+    height: 12vh;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    align-items: center;
+    display: flex;
+}
+.top{
+    justify-content: center;
+    display: flex;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo2{
+    padding: 0 15px;
+}
+.body{
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 170px 170px 170px;
+    gap: 10px;
+    position: relative;
+    left: 100px;
+}
+.mbody{
+    position: relative;
+    top: 70px;
+    justify-items: center;
+    display: grid;
+}
+.box1{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+}
+.box1 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.download{
+    background-color: green;
+    color: white;
+    display: flex;
+    width: 127px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: var(--btn);
+    color: white;
+    display: flex;
+    width: 127px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box2{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.box2 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    
+}
+/* .download{
+    background-color: rgb(16, 126, 23);
+    color: white;
+    display: flex;
+    width: 127px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+} */
+.box3{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+}
+.box3 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.box4{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.box4 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.box5{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.box5 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.box6{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.box6 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.box7{
+    background-color: var(--body);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    display: grid;
+    flex-direction: column;
+    gap: 45px;
+
+}
+.box7 span b{
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
